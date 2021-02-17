@@ -1,0 +1,56 @@
+FROM node:14.15.3-buster
+
+# INSTALL LIBRARIES & FONTS 
+
+
+# INSTALL NPM 
+RUN npm install -g npm@latest
+RUN npm --version
+# INSTALL YARN 
+#RUN npm install -g yarn@latest --force
+#RUN yarn --version
+
+# ENVIRONMENT VARIABLES
+# good colors for most applications
+ENV TERM xterm
+# avoid million NPM install messages
+#ENV npm_config_loglevel warn
+# allow installing when the main user is root
+#ENV npm_config_unsafe_perm true
+
+# Node libraries
+#RUN node -p process.versions
+
+# INSTALL CHROME
+
+# Chrome dependencies
+#RUN apt-get update
+#RUN apt-get install -y fonts-liberation libappindicator3-1 xdg-utils
+
+# Set up Chromedriver Environment variables
+ENV CHROMEDRIVER_VERSION 2.19
+ENV CHROMEDRIVER_DIR /chromedriver
+RUN mkdir $CHROMEDRIVER_DIR
+
+# Download and install Chromedriver
+RUN wget -q --continue -P $CHROMEDRIVER_DIR "http://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
+RUN unzip $CHROMEDRIVER_DIR/chromedriver* -d $CHROMEDRIVER_DIR
+ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
+
+# INSTALL PACKAGES
+WORKDIR /home/masood/
+COPY package*.json ./
+COPY . .
+EXPOSE 8080
+RUN npm install
+
+# VERIFICATION
+
+# Display versions of local tools
+RUN echo  " node version:    $(node -v) \n" \
+    "npm version:     $(npm -v) \n" \
+    "user:            $(whoami) \n"
+RUN ls
+
+# ON RUNNING THE IMAGE THIS COMMAND WILL BE TRIGGERED BY DEFAULT
+RUN ["npm", "start"]
