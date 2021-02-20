@@ -3,7 +3,7 @@ async function loginUser(variable, errorLog, username, password) {
     const { usernameField, passwordField, loginButton, sirryButton } = variable;
     const url = browser.getUrl();
     //clicking user name field and adding user name
-    if (url === process.env.BASE_URL_LAUREA) {
+    if (url === process.env.BASE_URL_DEMO) {
       // Clicking sirry button
       $(sirryButton).click();
 

@@ -1,0 +1,262 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613660295534' stop='1613660417926'>
+    <name>Testing E-lomake form of Eduix Oy</name>
+    <title>Testing E-lomake form of Eduix Oy</title>
+    <test-cases>
+        <test-case start='1613660295554' status='passed' stop='1613660296447'>
+            <name>STEP:1 Opening E-lomake web address:</name>
+            <title>STEP:1 Opening E-lomake web address:</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='8970f14a-5e73-410c-a62d-ed3a4db34dca-attachment.mp4' type='video/mp4' size='173'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660296454' status='passed' stop='1613660303547'>
+            <name>Step:2 should login with username &amp; password</name>
+            <title>Step:2 should login with username &amp; password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='6a7c4145-b12b-403f-8034-64aab548f0f1-attachment.mp4' type='video/mp4' size='181'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660303551' status='passed' stop='1613660306659'>
+            <name>Step:3 should get user email</name>
+            <title>Step:3 should get user email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='54f57199-4d00-4802-af03-72e56ad2b0de-attachment.mp4' type='video/mp4' size='166'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660306664' status='passed' stop='1613660317643'>
+            <name>STEP:4 should create a elomake form</name>
+            <title>STEP:4 should create a elomake form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='115a7d3b-c019-414b-a560-2488fc7237da-attachment.mp4' type='video/mp4' size='173'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660317647' status='passed' stop='1613660328331'>
+            <name>STEP:5 Upload a picture and process the form</name>
+            <title>STEP:5 Upload a picture and process the form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='6edeb3c6-5ff5-4b66-a811-a71fe317871d-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660328334' status='passed' stop='1613660338665'>
+            <name>Step:6 Publish the form and filling it with some data</name>
+            <title>Step:6 Publish the form and filling it with some data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='c622493e-9e0e-4608-a349-f0f6bec24019-attachment.mp4' type='video/mp4' size='191'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660338669' status='passed' stop='1613660349047'>
+            <name>STEP:7 Printing a PDF file:</name>
+            <title>STEP:7 Printing a PDF file:</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='7461e5cb-1c68-4671-952d-c93b1ff76e34-attachment.mp4' type='video/mp4' size='164'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660349052' status='passed' stop='1613660359409'>
+            <name>STEP:8 Report Preview and delete attachment </name>
+            <title>STEP:8 Report Preview and delete attachment </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='2c94b112-6b31-4473-9e9c-6fd18e7c261f-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660359413' status='passed' stop='1613660369738'>
+            <name>STEP9: Printing excel &amp; Deleting the submission from report</name>
+            <title>STEP9: Printing excel &amp; Deleting the submission from report</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='7064581e-637c-4c09-ba0c-49785ebc4a7f-attachment.mp4' type='video/mp4' size='196'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660369743' status='passed' stop='1613660380086'>
+            <name>Step10: Unpublishing the form</name>
+            <title>Step10: Unpublishing the form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='b2867ece-1ee5-4cea-8a9c-d48714829591-attachment.mp4' type='video/mp4' size='167'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660380092' status='passed' stop='1613660390423'>
+            <name>Step11: Processing form &amp; inspection to other users</name>
+            <title>Step11: Processing form &amp; inspection to other users</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='3ffe0c48-1700-4e8b-a114-1f6787129fd6-attachment.mp4' type='video/mp4' size='188'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660390428' status='passed' stop='1613660400805'>
+            <name>Step12: Publishing form with process of user's email address</name>
+            <title>Step12: Publishing form with process of user's email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='19fe4263-058c-47be-b8a2-4a6ef9868287-attachment.mp4' type='video/mp4' size='197'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660400809' status='passed' stop='1613660411137'>
+            <name>Step13: Handling processing task field</name>
+            <title>Step13: Handling processing task field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='47ced595-e78b-4d8f-b220-974f36df9bfd-attachment.mp4' type='video/mp4' size='176'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660411140' status='passed' stop='1613660411140'>
+            <name>Step14: Deleting Formt</name>
+            <title>Step14: Deleting Formt</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='1ada5212-19d7-4fa1-a180-d0d86bbdcff9-attachment.mp4' type='video/mp4' size='160'/>
+            </attachments>
+        </test-case>
+        <test-case start='1613660411143' status='passed' stop='1613660417924'>
+            <name>Step15: Logging out</name>
+            <title>Step15: Logging out</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+                <parameter kind='argument' name='browserVersion' value='88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='d1a0e523-3f14-419c-9926-59faccc8289f-attachment.mp4' type='video/mp4' size='157'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

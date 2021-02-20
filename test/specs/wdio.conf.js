@@ -1,3 +1,5 @@
+const video = require('wdio-video-reporter');
+
 exports.config = {
   runner: "local",
   //Firefox
@@ -56,15 +58,18 @@ exports.config = {
 
   //for command line reporting two way to show report.
   reporters: [
-    "spec",
-    [
-      "allure",
-      {
-        outputDir: "allure-results",
-      },
-    ],
+    'spec',
+    [video, {
+      saveAllVideos: true,       // If true, also saves videos for successful test cases
+      videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+      videoRenderTimeout: 5,      // Max seconds to wait for a video to finish rendering
+    }],
+    ['allure', {
+      outputDir: 'allure_results',
+      disableWebdriverStepsReporting: true,
+      disableWebdriverScreenshotsReporting: true,
+    }],
   ],
-
   mochaOpts: {
     ui: "bdd",
     timeout: 60000,
